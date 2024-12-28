@@ -13,8 +13,27 @@ body{
     background-size: cover;
   }
 #search-bar{
-  margin-top: 15px;
+ 
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
   
+}
+
+
+#btn_zipcode{
+  border: none;
+  padding: 6px 10px;
+  border-radius: 20px;
+}
+
+#btn_zipcode:active{
+  background-color: rgb(180, 157, 245);
 }
 #clicked{
   justify-content: start;
